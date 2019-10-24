@@ -10,7 +10,7 @@ Find the determinant of the given NxN matrix, where N>2,using multithreading.
 gcc --std=c99 -Wall -g -Werror find_det.c -o find_det -lpthread
 ```
 
-Run
+### Running the program
 ```
 ./find_det
 ```
@@ -30,7 +30,7 @@ compute the complete determinant.
 
 ### Notes about the program:
 ----------------------------
-_ The entries in the matrix are between -1000 and 1000.
-_ In general, N > 7 is not recommended. Since the OS probably deems too many threads are created, you will most likely see Segmentation fault and program quitting.
+- The entries in the matrix are between -1000 and 1000.
+- In general, N > 7 is not recommended. Since the OS probably deems too many threads are created, you will most likely see Segmentation fault and program quitting.
 
 
